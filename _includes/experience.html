@@ -6,11 +6,10 @@
       <div class="job">
         <div class="time-place">
           <div class="job__company">
-            ..{{job.url}}..
-            {% if job.url == "" %}
-              <a>{{job.company}} hh</a>
+            {% if job.url == blank %}
+              <a>{{job.company}}</a>
             {% else %}
-              <a href="{{job.url}}" target="_blank">{{job.company}} j</a>
+              <a href="{{job.url}}" target="_blank">{{job.company}} s</a>
             {% endif %}
           </div>
           <div class="job__time">{{job.time}}</div>
