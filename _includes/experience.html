@@ -6,12 +6,10 @@
       <div class="job">
         <div class="time-place">
           <div class="job__company">
-            <script>console.log("{{ job.url }}");</script>
-            <script>console.log("----==----");</script>
             {% if job.url %}
-              <a href="{{job.url}}" target="_blank">{{job.company}} s</a>
+              <a href="{{job.url}}" target="_blank">{{job.company}}</a>
             {% else %}
-              <a>{{job.company}} dff</a>
+              <a>{{job.company}}</a>
             {% endif %}
           </div>
           <div class="job__time">{{job.time}}</div>
