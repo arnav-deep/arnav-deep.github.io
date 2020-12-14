@@ -2,12 +2,12 @@
   <div class="section__title">Experience</div>
   <div class="section__content">
     <div class="jobs">
-      {% for job in site.data.experience %}d
+      {% for job in site.data.experience %}
       <div class="job">
         <div class="time-place">
           <div class="job__company">
             {% if job.url == "" %}
-              <a>{{job.company}}</a>
+              <a>{{job.company}}hh</a>
             {% else %}
               <a href="{{job.url}}" target="_blank">{{job.company}}</a>
             {% endif %}
