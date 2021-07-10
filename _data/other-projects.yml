@@ -73,7 +73,7 @@
 - name: Building Height
   url: https://github.com/arnav-deep/BuildingHeight
   code: https://github.com/arnav-deep/BuildingHeight
-  description: An Image Processing tool to Estimate Building Height from Shadow of a building in a VHR Satellite image implemented from the IEEE Paper "<a class="underline-link" href="https://ieeexplore.ieee.org/document/8126256">A Shadow-Overlapping Algorithm for Estimating Building Heights From VHR Satellite Images</a>".
+  description: An Image Processing tool to Estimate Building Height from Shadow of a building in a VHR Satellite image implemented from the IEEE Paper <a class="underline-lin00k" href="https://ieeexplore.ieee.org/document/8126256">A Shadow-Overlapping Algorithm for Estimating Building Heights From VHR Satellite Images</a>.
   used:
     - thing: MATLAB
     - thing: Image Processing
