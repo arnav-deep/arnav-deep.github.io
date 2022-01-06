@@ -1,32 +1,32 @@
+` company: TranZact
+  url: https://www.letstranzact.com/
+  time: Jan 2021 - Present
+  position: Software Development Engineer - II
+
 - company: Vimeo
-  url: http://www.vimeo.com/
-  time: Sep 2021 - Present
+  url: https://www.vimeo.com/
+  time: Sep 2021 - Dec 2021
   position: Software Development Engineer
 
 - company: Quantiphi
-  url: http://www.quantiphi.com/
+  url: https://www.quantiphi.com/
   time: Jul 2021 - Aug 2021
   position: Framework Engineer
 
 - company: Quantiphi
-  url: http://www.quantiphi.com/
+  url: https://www.quantiphi.com/
   time: Jan 2021 - Jul 2021
   position: Framework Engineer - Intern
-
-- company: Frinza
-  url: http://www.frinza.com/
-  time: Oct 2020 - Jan 2021
-  position: Full Stack Development Intern
 
 - company: Madhya Pradesh Power Transmission Co. Ltd.
   url: http://www.mptransco.in/
   time: Jan 2020 - Jan 2021
   position: Full Stack Developer - Part Time
-
-- company: Grroom
-  url: http://grroom.in/
-  time: Aug 2020 - Oct 2020
-  position: Machine Learning Engineer Intern
+  
+- company: Frinza
+  url: http://www.frinza.com/
+  time: Oct 2020 - Jan 2021
+  position: Full Stack Development Intern
   
 - company: MAA For India
   url: https://maaforindia.com/
