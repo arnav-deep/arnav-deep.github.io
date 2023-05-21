@@ -78,7 +78,7 @@ $(function() {
     // const url = `${baseURL}/inventory/main-inventory/bulk_manual_adjustment_or_stock_transfer/`;
   
     // const headers = {
-    //   "authorization": `Bearer ${baseURL}`,
+    //   "authorization": `fdfdfd ${baseURL}`,
     //   "content-type": "application/json",
     // };
   
