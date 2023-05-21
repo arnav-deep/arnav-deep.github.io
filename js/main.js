@@ -51,19 +51,31 @@ $(function() {
 
   function counter() {
 
-    console.log('STarted')
+    console.log('Ssarted')
 
-    fetch('https://be.letstranzact.com/main/login/password-login/', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      // body: '{\n    "email": "arnav+prodata@letstranzact.com",\n    "password": "123456"\n}',
-      body: JSON.stringify({
-        'email': 'arnav+prodata@letstranzact.com',
-        'password': '123456'
-      })
+    const url = 'https://be.letstranzact.com/main/login/password-login/';
+    const headers = {
+      'Content-Type': 'application/json'
+    };
+    const data = JSON.stringify({
+      email: 'arnav+prodata@letstranzact.com',
+      password: '123456'
     });
+
+    fetch(url, {
+      method: 'POST',
+      headers: headers,
+      body: data
+    })
+      .then(response => response.json())
+      .then(data => {
+        // Handle the response data here
+        console.log(data);
+      })
+      .catch(error => {
+        // Handle any errors here
+        console.error(error);
+      });
 
 
     // const url = `${baseURL}/inventory/main-inventory/bulk_manual_adjustment_or_stock_transfer/`;
