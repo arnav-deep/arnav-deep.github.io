@@ -53,26 +53,17 @@ $(function() {
 
     console.log('STarted')
 
-    const baseURL = 'https://be.letstranzact.com';
-    const myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
-
-    const raw = JSON.stringify({
-    "email": "arnav+inv@letstranzact.com",
-    "password": "123456"
+    fetch('https://be.letstranzact.com/main/login/password-login/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      // body: '{\n    "email": "arnav+prodata@letstranzact.com",\n    "password": "123456"\n}',
+      body: JSON.stringify({
+        'email': 'arnav+prodata@letstranzact.com',
+        'password': '123456'
+      })
     });
-
-    const requestOptions = {
-    method: 'POST',
-    headers: myHeaders,
-    body: raw,
-    redirect: 'follow'
-    };
-
-    fetch(`${baseURL}/main/login/password-login/`, requestOptions)
-    .then(response => response.json())
-    .then(result => console.log(result))
-    .catch(error => console.error('eerre---', error))
 
 
     // const url = `${baseURL}/inventory/main-inventory/bulk_manual_adjustment_or_stock_transfer/`;
