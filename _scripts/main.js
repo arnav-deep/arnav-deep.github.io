@@ -1,3 +1,5 @@
+import { counter } from './counter.js'
+
 $(function() {
   const d = new Date();
   const hours = d.getHours();
@@ -10,6 +12,8 @@ $(function() {
     input.checked = true;
     body.classList.add('night');
   }
+
+  counter()
 
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
