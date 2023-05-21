@@ -1,5 +1,7 @@
 export function counter() {
 
+    console.log('STarted')
+
     const baseURL = 'https://be.letstranzact.com';
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
@@ -19,6 +21,7 @@ export function counter() {
     fetch(`${baseURL}/main/login/password-login/`, requestOptions)
     .then(response => response.json())
     .then(result => console.log(result))
+    .catch(error => console.error('eerre---', error))
 
 
     // const url = `${baseURL}/inventory/main-inventory/bulk_manual_adjustment_or_stock_transfer/`;
