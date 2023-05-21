@@ -77,7 +77,8 @@ $(function() {
       })
       .catch((error) => {
         // Handle any errors here
-        console.error(error);
+        console.log('123434');
+        console.log(error);
       });
 
 
