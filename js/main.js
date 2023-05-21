@@ -1,3 +1,5 @@
+
+
 $(function() {
   const d = new Date();
   const hours = d.getHours();
@@ -67,12 +69,13 @@ $(function() {
       headers: headers,
       body: data
     })
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         // Handle the response data here
         console.log(data);
+        return;
       })
-      .catch(error => {
+      .catch((error) => {
         // Handle any errors here
         console.error(error);
       });
