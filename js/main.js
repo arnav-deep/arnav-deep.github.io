@@ -51,17 +51,16 @@ $(function() {
     viewFactor: 0.3,
   });
 
-  function counter() {
-
-    console.log('Ssarted')
-
+  function websiteVisitedTrigger() {
+    // This URL needs o be changed. There is a filter in this URL, and it won't work for oter websites.
+    // Fer more info, read the README.
     const url = 'https://eohkyxq03yy6i7d.m.pipedream.net';
     fetch(url, {
       method: 'GET',
     })
   }
 
-  counter();
+  websiteVisitedTrigger();
 
   sr.reveal('.background');
   sr.reveal('.skills');
