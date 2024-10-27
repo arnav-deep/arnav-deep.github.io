@@ -1,5 +1,6 @@
 languages:
   - item: C/C++
+  - item: Rust
   - item: Python
   - item: Java
   - item: HTML
