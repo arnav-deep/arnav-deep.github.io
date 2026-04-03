@@ -15,12 +15,6 @@ social:
     url: https://www.linkedin.com/in/arnav-deep
   - title: github
     url: https://github.com/arnav-deep
-  - title: codechef
-    url: https://codechef.com/users/thrown
-  - title: twitter
-    url: https://twitter.com/arnavd4
-  - title: instagram
-    url: https://instagram.com/arnav_deep
 
 # Build settings
 markdown: kramdown
